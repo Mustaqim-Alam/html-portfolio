@@ -1,54 +1,121 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Musaqim Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductCatalog</title>
 </head>
 <body>
-    <h1>Mustaqim's Portfolio</h1>
-    <h2>I am web developer:</h2>
-    <hr>
-    <a href="./public/movie-ranking.html">Movie Ranking project</a>
-    <h3>The best movie according to Mustaqim</h3>
-    <h4>My top 3 movies of all time</h4>
-    <hr>
-    <h2>Raise of ottoman Empire</h2>
-    <p>These are my favourite moives. I love the historical movies</p>
-    <h2>Osman gazi</h2>
-    <p>Really cool actor in this movie</p>
-    <h2>Ertgrul gazi</h2>
-    <p>One of the best ertgrul-gaazi</p>
-    <br><br>
-
-    <a href="./public/birthday-invite.html">Birthday Invite Project</a>
-    <h2>It's My Friend Birthday!</h2>
-    <h3>On the 12th May</h3>
-    <img src="../4.3 HTML Porfolio Project/assets/images/birthday-invite.png" alt="birth day cake" width="300">
-    <h2>What to bring:</h2>
-    <ul>
-        <li>Baloons(I love baloons)</li>
-        <li>Cake(I m really good at eating)</li>
-        <li>An appetite(There will be lots of food)</li>
+    <div>
+        <h1>Product Catalog</h1>
+            <section>
+                <ul>
+                    <li><a href="#Electronics">Electronics</a></li>
+                    <li><a href="#Clothing">Clothing</a></li>
+                    <li><a href="#Home">Home</a></li>
+                </ul>
+            </section>
         <hr>
-        <a href="./public/about.html" target="_blank">About me</a>
-        <a href="./public/contact.html" target="_blank">Contact me</a>
-    </ul>
+        <div>
+            <h2 id="Electronics">Electronics</h2>
+            <section>
+                <h3>1.Laptop</h3>
+                <p><b>Discription:</b>High-Performance laptop with the latest processorand ample storege. </p>
+                <p><b>Price:</b>$999.99</p>
+                <p><b>Availability:</b>In stock</p>
+                <img src="./Electronics/laptop.jpeg" alt="laptopimg" width="300">
+                <a href="./Electronics/laptopdetails.html" target="_blank">View details</a>
+                <ul>
+                    <li><b>Brand:</b>MSI</li>
+                    <li><b>Screen size:</b>15.6"</li>
+                    <li><b>RAM:</b>8GB</li>
+                    <li><strong>Storage:</strong>512GB SSD</li>
+                </ul>
+            </section>
+            <section>
+                <h3 >2.Smartphone</h3>
+                <p><b>Description: </b>Feature-rich smartphone with high resolution display and advanced camera.</p>
+                <p><b>Price: </b>$699.99</p>
+                <p><b>Availability: </b>Out of Stock</p>
+                <img src="./Electronics/phoneimg.avif" alt="phoneimg" width="300">
+                <a href="./phonedatails.html" target="_blank">Viw Datails</a>
+                <ul>
+                    <li><b>Brand: </b>Apple</li>
+                    <li><b>Screen size:</b>7.5 inches</li>
+                    <li><b>Camera: </b>48+12</li>
+                    <li><b>Storage:</b>128GB</li>
+                </ul>
+            </section>
+        </div>
+        <hr>
+        <div>
+            <h2 id="Clothing">Clothing</h2>
+            <section>
+                <h3>1.T-shirt</h3>
+                <p><b>Description: </b>Casual and comfortable t-shirt from premium quality cotton.</p>
+                <p><b>Price: </b>$14.99</p>
+                <p><b>Availability: </b>In stock</p>
+                <img src="./Electronics/t-shirt.webp" alt="t-shirt" width="300">
+                <a href="./clothing/t-shirtdetails.html">View Details</a>
+                <ul>
+                    <li><b>Brand:</b>Fashion Appareal</li>
+                    <li><b>Color:</b>Black</li>
+                    <li><b>Black:</b>S,M,L,XL</li>
+                    <li><b>Material:</b>100% Cotoon</li> 
+                    </ul>
+            </section>
+            <section>
+                <h3>2.Jeans</h3>
+                <p><b>Description: </b>Classic jeans with a slim fit and stylish jeans</p>
+                <p><b>Price: </b>$49.99</p>
+                <p><b>Availability: </b>In stock</p>
+                <img src="./clothing/jeans.avif" alt="Jeansimg" width="300">
+                <a href="./clothing/jeansdetails.html">View Details</a>
+                <ul>
+                    <li><b>Brand:</b>Denim co.</li>
+                    <li><b>Color:</b>Black</li>
+                    <li><b>Size:</b>30,32,34</li>
+                    <li><b>Material:</b>Denim</li> 
+                    </ul>
+            </section>
+        </div>
+        <hr>
+        <div>
+            <h2 id="home">Home Decor</h2>
+            <section>
+                <h3>1.Table lamp</h3>
+                <p><b>Description: </b>Morden and Stylish table lamp to inhance your your home decore  .</p>
+                <p><b>Price: </b>$39.95</p>
+                <p><b>Availability: </b>In stock</p>
+                <img src="./home_decor/lamp.jpeg" alt="lamp" width="300">
+                <a href="./home_decor/lamp_details.html">View Details</a>
+                <ul>
+                    <li><b>Brand:</b>Home Essential</li>
+                    <li><b>Color:</b>White</li>
+                    <li><b>Dimention:</b>12 inches(height)</li>
+                    <li><b>Material:</b>ceramic Metal</li> 
+                </ul>
+            </section>
+            <section>
+                <h3>2.Throw Pillow</h3>
+                <p><b>Description: </b>Soft and comfortable throw pillow for your living room.</p>
+                <p><b>Price: </b>$24.76</p>
+                <p><b>Availability: </b>In stock</p>
+                <img src="./home_decor/Pillow.jpeg" alt="pillow" width="300">
+                <a href="./home_decor/pillow_details.html">View Details</a>
+                <ul>
+                    <li><b>Brand:</b>Cozy Home</li>
+                    <li><b>Color:</b>White</li>
+                    <li><b>Dimention:</b>10 x 10 inches</li>
+                    <li><b>Material:</b>Cotton, Polyester</li> 
+                </ul>
+                
+            </section>
 
+        </div>   
+        
+    
+    </div>
 </body>
 </html>
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
